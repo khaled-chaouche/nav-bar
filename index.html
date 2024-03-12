@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: x-large;
+    font-family: "Roboto";
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+nav{
+    display: flex;
+    background-color: rgb(106, 255, 255);
+    padding: 20px;
+    justify-content:space-between ;
+    position:relative;
+    top: 50vh;
+}
+nav a{
+    padding-left: 25px;
+}
+a:hover{
+    text-decoration:underline red 5px ;
+    cursor: pointer;
+}
+.liens{
+    display: flex;
+}
+@media screen and (max-width: 800px) {
+  nav , .liens{
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background: darkkhaki;
+  }
+  h3{
+    font-size: 70px
+  }
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <h3>NavBar</h3>
+        <div class="liens">
+            <a href="">Home</a>
+            <a href="">Features</a>
+            <a href="">Services</a>
+            <a href="">Our work</a>
+        </div>
+    </nav>
+</body>
+</html>
